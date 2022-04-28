@@ -2,10 +2,10 @@
 This is an R package for implementing the covariance completion algorithm in [1].
 The syntax is as follows:
 
-'''
+```
 Compln(Cov, Omega, VectorOfTuning) % for manual choice of truncation parameters used in the algorithm.
 ComplnFVE(Cov, Omega, FVE) % for automatic choice of truncation parameters in accordance with the fraction of variance explained (FVE) criterion.
-'''
+```
 
 ## References
 <a id="1">[1]</a> 
