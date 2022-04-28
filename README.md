@@ -6,7 +6,7 @@ The variable `Cov` is a discretization of the partial covariance K_{Ω} in the f
 ```
 Compln(Cov, Omega, VectorOfTuning) 
 ```
-Here `VectorIfTuning` is a vector of integers which serve as truncation parameters in the matrix multiplication involved. Naturally, the length of this vector should be at least *m-1* when we are dealing with an *m*-serrated domain Ω.
+Here `VectorOfTuning` is a vector of integers which serve as truncation parameters in the matrix multiplication involved. Naturally, the length of this vector should be at least *m-1* when we are dealing with an *m*-serrated domain Ω.
 2. For automatic choice of truncation parameters in accordance with the fraction of variance explained (FVE) criterion:
 ```
 ComplnFVE(Cov, Omega, FVE) 
