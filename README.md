@@ -5,13 +5,12 @@ The syntax is as follows:
 ```
 Compln(Cov, Omega, VectorOfTuning) 
 ```
+Here `VectorIfTuning` is a vector of integers which serve as truncation parameters in the matrix multiplication involved. Naturally, the length of this vector should be at least $m-1$ when we are dealing with an m-serrated domain Ω.
 2. For automatic choice of truncation parameters in accordance with the fraction of variance explained (FVE) criterion:
 ```
 ComplnFVE(Cov, Omega, FVE) 
 ```
-Here `Omega` is a matrix of 1s and 0s which describes the domain Ω of the partial covariance K_{Ω}.
-
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+Here `Cov` is a discretization of the partial covariance K_{Ω} and `Omega` is a matrix of 1s and 0s which describes the domain Ω of K_{Ω}.
 
 
 ## References
