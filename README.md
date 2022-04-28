@@ -1,11 +1,18 @@
 # covcomp
 This is an R package for implementing the covariance completion algorithm in [1].
 The syntax is as follows:
+1. For manual choice of truncation parameters used in the algorithm:
+```
+Compln(Cov, Omega, VectorOfTuning) 
+```
+2. For automatic choice of truncation parameters in accordance with the fraction of variance explained (FVE) criterion:
+```
+ComplnFVE(Cov, Omega, FVE) 
+```
+Here `Omega` is a matrix of 1s and 0s which describes the domain Ω of the partial covariance K_{Ω}.
 
-```
-Compln(Cov, Omega, VectorOfTuning) #for manual choice of truncation parameters used in the algorithm.
-ComplnFVE(Cov, Omega, FVE) #for automatic choice of truncation parameters in accordance with the fraction of variance explained (FVE) criterion.
-```
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 
 ## References
 <a id="1">[1]</a> 
