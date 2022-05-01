@@ -1,15 +1,12 @@
 Package: covcomp
-Title: Covariance Completion
+Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("Kartik", "Waghmare", , "kartik.waghmare@epfl.com", role = c("aut", "cre"),
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This is an R package for implementing the covariance completion algorithm proposed in [1].
-
-<a id="1">[1]</a> 
-Waghmare, K.G. and Panaretos, V.M., 2021. The Completion of Covariance Kernels. arXiv preprint arXiv:2107.07350. (https://arxiv.org/abs/2107.07350)
-
-License: use_mit_license()
+Description: What the package does (one paragraph).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
