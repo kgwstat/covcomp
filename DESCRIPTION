@@ -1,12 +1,13 @@
 Package: covcomp
-Title: What the Package Does (One Line, Title Case)
+Title: Covariance Completion
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Kartik", "Waghmare", , "kartik.waghmare@epfl.ch", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-0912-685X"))
+Description: This is an implementation of the covariance completion
+    algorithm proposed by in 'The Completion of Covariance Kernels'
+    (https://arxiv.org/abs/2107.07350).
+License: TRUE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
