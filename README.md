@@ -1,6 +1,6 @@
 # covcomp
 
-This is an R package for implementing the covariance completion algorithm proposed in [1]. The variable `Cov` is a discretization of the partial covariance K_{Ω} in the form of a matrix and `Omega` is a matrix of 1s and 0s of the same dimensions as `Cov` which describes the domain Ω of K_{Ω}.
+This is an R package for implementing the covariance completion algorithm in [1]. The variable `Cov` is a discretization of the partial covariance K_{Ω} in the form of a matrix and `Omega` is a matrix of 1s and 0s of the same dimensions as `Cov` which describes the domain Ω of K_{Ω}.
 
 1. For manual choice of truncation parameters used in the algorithm:
 ```
