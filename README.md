@@ -2,7 +2,7 @@
 
 This is an R package for implementing the covariance completion algorithm in [1]. The variable `Cov` is a discretization of the partial covariance $K_{\Omega}$ in the form of a matrix and `Omega` is a matrix of 1s and 0s of the same dimensions as `Cov` which describes the domain $\Omega$ of $K_{\Omega}$.
 
-1. For manual choice of truncation parameters used in the algorithm:
+1. For manual choice of truncation parameters used in the function:
 ```
 Compln(Cov, Omega, VectorOfTuning) 
 ```
